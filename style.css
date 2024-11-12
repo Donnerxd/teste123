@@ -19,11 +19,35 @@
 .custom-navbar .nav-link:hover {
     color: gray !important; 
 }
-#items-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 body {
     background-color: #2D2E2E;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+.bloco-home {
+    justify-self: center;
+    width: 80%;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    height: 800px;
+    margin-top: 100px;
+}
+.home-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 755px;
+    padding: 40px;
+}
+
+
+.home-text {
+}
+.home-items .home-image img {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+   
+
 }

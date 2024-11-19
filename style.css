@@ -176,3 +176,41 @@ body {
     align-items: center;
     gap: 20px;
 }
+.footer {
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    background-color: #0F0F0F;
+    height: 200px;
+    margin-top: -8px;
+}
+.footer-line {
+    border-top: 1px solid gray;
+    margin: 40px auto;
+    width: 90%;
+}
+.footer-home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: -27px;
+}
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.socials-container a svg {
+    height: 30px;
+    fill: white;
+}
+.footer-line p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 15px;
+}
